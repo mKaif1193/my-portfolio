@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-<img src="public/me.png" alt="Muhammad Kaif Image" width="300" height="300" />
+<img src="public/me.png" alt="Muhammad Kaif Image" width="300" height="300" style="border-radius:50%" />
 
 ## Table of Contents
 
