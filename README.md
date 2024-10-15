@@ -9,7 +9,7 @@
 
 ## Overview
 
-This is a modern portfolio website built using **Next.js** and **TypeScript**, designed to showcase my skills, projects, and professional history. The website offers a visually appealing and user-friendly interface, utilizing **Magic UI** and **Aceternity UI** for design components and layouts.
+This modern portfolio website was built using **Next.js** and **TypeScript** to showcase my skills, projects, and professional history. The website offers a visually appealing and user-friendly interface, utilizing **Magic UI** and **Aceternity** UI for design components and layouts.
 
 ## Technologies Used
 
