@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState, createContext } from "react";
 import { IconArrowNarrowLeft, IconArrowNarrowRight } from "@tabler/icons-react";
-import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
 interface CarouselProps {
@@ -132,7 +131,6 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 
 export const Card = ({
   card,
-  index,
   layout = false,
 }: {
   card: Card;
