@@ -1,7 +1,6 @@
 # My Portfolio Website
 
-![Muhammad Kaif](public//me.png)
-<img src="public/me.png" alt="Muhammad Kaif" width="300"/>
+<img src="public/me.png" alt="Muhammad Kaif Image" width="300" height="300" />
 
 ## Table of Contents
 
