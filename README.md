@@ -1,7 +1,5 @@
 # My Portfolio Website
 
-<img src="public/me.png" alt="Muhammad Kaif Image" width="200" height="300" />
-
 ## Table of Contents
 
 - [Overview](#overview)
