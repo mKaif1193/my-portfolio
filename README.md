@@ -31,4 +31,4 @@ This modern portfolio website was built using **Next.js** and **TypeScript** to 
 For any questions or feedback, feel free to reach out:
 
 - Email: [muhammadkaif1193@gmail.com](mailto:muhammadkaif1193@gmail.com)
-- LinkedIn: [Muhammad Kaif](https://www.linkedin.com/in/muhammad-kaif-059a53261)
+- LinkedIn: [Muhammad Kaif](https://www.linkedin.com/in/mkaif56)
