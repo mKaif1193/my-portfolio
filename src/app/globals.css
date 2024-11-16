@@ -132,6 +132,7 @@
 .animate-backend {
   animation: moveVerticalBackend 30s ease-in-out infinite;
 }
+
 @layer base {
   * {
     @apply border-border;

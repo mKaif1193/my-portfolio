@@ -61,7 +61,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/muhammad-kaif-059a53261",
+        url: "https://www.linkedin.com/in/mkaif56",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -174,7 +174,7 @@ export const DATA = {
   education: [
     {
       school:
-        "Federal Urdu University of Arts, Sciences and Technology (FUUAST), Islamabad",
+        "Federal Urdu University of Arts, Science and Technology (FUUAST), Islamabad",
       href: "https://fuuastisb.edu.pk/",
       degree: "Bachelor's in Computer Science (BS CS)",
       logoUrl: "/federal-urdu-university-round-lo.png",
@@ -182,7 +182,7 @@ export const DATA = {
       end: "2026",
     },
     {
-      school: "Channab School and College, Islamabad",
+      school: "Chanab School and College, Islamabad",
       href: "",
       degree: "Intermediate in Computer Science (ICS)",
       logoUrl: "",
