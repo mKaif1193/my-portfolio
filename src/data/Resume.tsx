@@ -16,7 +16,8 @@ export const DATA = {
     "As a Computer Science student with a solid foundation in tech, I specialize in crafting innovative web solutions that bring ideas to life and drive real impact.",
   summary:
     "Over the past few years, I've been focusing on broadening my skills to full-stack development, specifically with technologies (i.e. React.js, Next.js, Node.js, MongoDB etc). I'm inherently interested in design such as frontend design and backend architecture. I'm yet to begin my career but have built many really interesting projects like portfolio and E-Store (Ecommerce App). I really enjoy learning new technologies and working with a team to bring a concept into reality. Aside from coding, I love reading up on the latest in tech and figuring out how to further improve my skills. I'm eager to tackle new problems and put my passion for development to the test.",
-  avatarUrl: "/me.png",
+  avatarUrl:
+    "https://drive.google.com/file/d/1kwFKW9RMXL5__74moJNstwhZe6fl4WXu/view?usp=drive_link",
   skills: {
     languages: ["JavaScript", "TypeScript", "Java", "C++"],
     frontend: [

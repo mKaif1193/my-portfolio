@@ -76,7 +76,7 @@ const Hero = () => {
           <div className="flex items-end sm:items-center flex-col gap-1 sm:flex-row justify-between w-full">
             <BlurFade delay={BLUR_FADE_DELAY} className="flex items-center">
               <a
-                href="/Muhammad Kaif Resume.pdf"
+                href="https://drive.google.com/file/d/1sz5HQvhV94vTr9R_HpFn0F9Lc1UKI0Mv/view?usp=drive_link"
                 download="Muhammad-Kaif-Resume.pdf"
                 className="group relative inline-flex h-[40px] w-auto bg-gradient-to-r from-black-200 to-black-100 border-2 border-black-100 items-center justify-center rounded-full pl-2 sm:pl-6 pr-10 sm:pr-14 font-medium text-neutral-50"
               >
