@@ -4,6 +4,7 @@ import {
   GraduationCapIcon,
   FolderClosedIcon,
   PhoneIcon,
+  BriefcaseIcon,
 } from "lucide-react";
 
 export const DATA = {
@@ -13,12 +14,12 @@ export const DATA = {
   location: "Islamabad, Pakistan",
   locationLink: "https://www.google.com/maps/place/islamabad",
   description:
-    "As a Computer Science student with a solid foundation in tech, I specialize in crafting innovative web solutions that bring ideas to life and drive real impact.",
+    "I'm a Computer Science student with a strong tech background. I build creative web projects that turn ideas into real, useful results.",
   summary:
-    "Over the past few years, I've been focusing on broadening my skills to full-stack development, specifically with technologies (i.e. React.js, Next.js, Node.js, MongoDB etc). I'm inherently interested in design such as frontend design and backend architecture. I'm yet to begin my career but have built many really interesting projects like portfolio and E-Store (Ecommerce App). I really enjoy learning new technologies and working with a team to bring a concept into reality. Aside from coding, I love reading up on the latest in tech and figuring out how to further improve my skills. I'm eager to tackle new problems and put my passion for development to the test.",
-  avatarUrl: "/mKaif2.png",
+    "In the past few years, I've been learning full-stack development using tools like React.js, Next.js, Node.js, and MongoDB. I enjoy both frontend and backend development. I've built several projects like a personal portfolio, an e-commerce app, resume analyzer app and image search app. I love learning new technologies and working with others to turn ideas into real projects. Outside of coding, I like reading about new tech trends and finding ways to get better at what I do. I'm excited to face new challenges and grow as a developer.",
+  avatarUrl: "/mKaif5.png",
   skills: {
-    languages: ["JavaScript", "TypeScript", "Java", "C++"],
+    languages: ["JavaScript", "TypeScript", "Python", "Java", "C++"],
     frontend: [
       "HTML",
       "CSS",
@@ -36,15 +37,15 @@ export const DATA = {
       "Mongoose (ODM)",
       "Socket.IO",
       "REST APIs",
-      "Appwrite",
+      "Django",
     ],
-    databases: ["MongoDB", "Oracle Database"],
-    tools: ["VS Code", "Git", "Postman", "Figma"],
+    databases: ["MongoDB", "PostgreSQL", "MySQL", "Oracle Database"],
+    tools: ["VS Code", "Git", "GitHub", "Postman", "Figma"],
   },
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "#education", icon: GraduationCapIcon, label: "Education" },
-    // { href: "#work", icon: BriefcaseIcon, label: "Work" },
+    { href: "#work", icon: BriefcaseIcon, label: "Work" },
     // { href: "#testimonials", icon: MessageCircleIcon, label: "Testimonials" },
     { href: "#projects", icon: FolderClosedIcon, label: "Projects" },
     { href: "#contact", icon: PhoneIcon, label: "Contact" },
@@ -100,76 +101,28 @@ export const DATA = {
   },
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Pakistan Institute of Engineering and Applied Sciences (PIEAS)",
+      href: "https://www.pieas.edu.pk/",
       badges: [],
+      location: "Islamabad, Pakistan",
+      title: "AI Intern",
+      logoUrl: "/pieas-logo-isl.jpg",
+      start: "July 2025",
+      end: "Sep 2025",
+      description:
+        "I completed my internship at the Pakistan Institute of Engineering and Applied Sciences (PIEAS), Islamabad, from July 1 to September 22, 2025. I worked on AI-focused projects involving image processing, pattern matching, image search, and a resume-to-job matching algorithm. This experience strengthened my problem-solving skills, gave me hands-on exposure to real AI systems, and deepened my interest in AI, machine learning, and software development.",
+    },
+    {
+      company: "DevelopersHub Corporation©",
+      badges: [],
+      href: "https://developershubcorp.com/",
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/exp1.svg",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/developershub_corporation_logo.jpg",
+      start: "Nov 2024",
+      end: "Jan 2025",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    },
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "During the 6-week remote internship I designed a fully featured E-Store web app using the MERN stack, which included front-end and back-end development, REST APIs, and MongoDB integration. This gave me first-hand experience of full-stack development in the real world.",
     },
   ],
   education: [
@@ -177,7 +130,7 @@ export const DATA = {
       school:
         "Federal Urdu University of Arts, Science and Technology (FUUAST), Islamabad",
       href: "https://fuuastisb.edu.pk/",
-      degree: "Bachelor's in Computer Science (BS CS)",
+      degree: "Bachelor's in Computer Science (BSCS)",
       logoUrl: "/federal-urdu-university-round-lo.png",
       start: "2022",
       end: "2026",
@@ -223,38 +176,59 @@ export const DATA = {
       image: "/estore.png",
       video: "",
     },
-    // {
-    //   title: "Chat App - A Real-Time Messaging Platform",
-    //   dates: "Oct 7, 2024",
-    //   href: "https://chat-app-mkaif.vercel.app/",
-    //   active: true,
-    //   description:
-    //     "Chat app is a real-time messaging application built with React.js (MERN-Stack). Provides secure user authentication, real-time communication via Socket.IO and a responsive, user-friendly interface.  Users can send and receive messages in real-time and view active users. The app uses Daisy UI's modern design elements and utilizes global state management using Zustand.",
-    //   technologies: [
-    //     "React.js",
-    //     "Tailwind CSS",
-    //     "Zustand",
-    //     "Daisy UI",
-    //     "Node.js",
-    //     "Express.js",
-    //     "MongoDB",
-    //     "Socket.IO",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://chat-app-mkaif.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/mKaif1193/chat-app",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "",
-    // },
+    {
+      title: "Resume Analyzer App",
+      dates: "Aug 10, 2025",
+      href: "",
+      active: true,
+      description:
+        "I built a full-stack Resume Analyzer using React.js, Django and SQLite. The app analyzes resumes, scores them and provides insights based on recruiter inputs. This was my first Django project, created to explore how backend logic and frontend interaction work together in a practical, real-world app.",
+      technologies: ["React.js", "Tailwind CSS", "SQLite", "Django", "OpenCV"],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/mKaif1193/Resume-Analyzer-App-PIEAS",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Resume Anlyzer Project (1).png",
+      video: "",
+    },
+    {
+      title: "Image Search App",
+      dates: "Sep 18, 2025",
+      href: "",
+      active: true,
+      description:
+        "I built a full-stack app that lets you search images in two ways: by writing a caption and by uploading an image. The app then shows the closest matches. I used React.js for the frontend, Django for the backend and SQLite for the database. This project helped me learn more about handling file uploads, building search features, train model and connecting the frontend with the backend. It's a small but useful project that I've built with Django, OpenCV etc.",
+      technologies: [
+        "React.js",
+        "Tailwind CSS",
+        "SQLite",
+        "Django",
+        "OpenCV",
+        "PyTorch",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/mKaif1193/Image-Search-App-PIEAS",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Image Searcher Project.png",
+      video: "",
+    },
   ],
   hackathons: [
     {

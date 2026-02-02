@@ -4,6 +4,7 @@ import Education from "@/components/Education";
 import Projects from "@/components/Projects";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
+import Work from "@/components/Work";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <Education />
-        {/* <Work /> */}
+        <Work />
         {/* <Testimonials /> */}
         <Projects />
         {/* <Services /> */}

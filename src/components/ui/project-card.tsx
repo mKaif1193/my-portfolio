@@ -49,7 +49,7 @@ export function ProjectCard({
         href={href || "#"}
         className={cn(
           "block cursor-pointer hover:scale-105 transition-all",
-          className
+          className,
         )}
       >
         {video ? (
@@ -103,17 +103,20 @@ export function ProjectCard({
       <CardFooter className="px-2 pb-2">
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-2">
-            {links?.map((link, idx) => (
-              <Link href={link?.href} key={idx} target="_blank">
-                <Badge
-                  key={idx}
-                  className="flex gap-1 items-center justify-center px-2 py-1 sm:text-xs text-center"
-                >
-                  {link.icon}
-                  {link.type}
-                </Badge>
-              </Link>
-            ))}
+            {links?.map(
+              (link, idx) =>
+                link.href && (
+                  <Link href={link?.href} key={idx} target="_blank">
+                    <Badge
+                      key={idx}
+                      className="flex gap-1 items-center justify-center px-2 py-1 sm:text-xs text-center"
+                    >
+                      {link.icon}
+                      {link.type}
+                    </Badge>
+                  </Link>
+                ),
+            )}
           </div>
         )}
       </CardFooter>

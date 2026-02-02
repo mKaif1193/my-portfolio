@@ -50,7 +50,10 @@ const Work = () => {
                   />
 
                   <h2 className="text-start text-xl md:text-2xl font-bold relative z-20 mt-2">
-                    {card.title}
+                    {card.title}{" "}
+                    <span className="text-sm text-gray-300">
+                      {card.start} - {card.end}
+                    </span>
                   </h2>
 
                   <p className="text-start text-white-100 mt-3 font-semibold relative z-20 sm:text-sm text-xs">
