@@ -38,7 +38,7 @@ const Work = () => {
             >
               <CardSpotlight
                 key={card.company}
-                className="flex-1 text-white border-neutral-200 dark:border-slate-800"
+                className="flex-1 text-white border-neutral-200 h-full dark:border-slate-800"
               >
                 <div className="lg:ms-5">
                   <Image

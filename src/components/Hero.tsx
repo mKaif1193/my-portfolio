@@ -76,7 +76,7 @@ const Hero = () => {
           <div className="flex items-end sm:items-center flex-col gap-1 sm:flex-row justify-between w-full">
             <BlurFade delay={BLUR_FADE_DELAY} className="flex items-center">
               <a
-                href="https://drive.google.com/file/d/1KkWaaJUVSeXzhXmLTa8M37ZgMj9aaCLC/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1uDv3w5ha4oAgEfyZbYdF6XVA9d8g75TJ/view?usp=drivesdk"
                 target="_blank"
                 className="group relative inline-flex h-[40px] w-auto bg-gradient-to-r from-black-200 to-black-100 border-2 border-black-100 items-center justify-center rounded-full pl-2 sm:pl-6 pr-10 sm:pr-14 font-medium text-neutral-50"
               >
@@ -98,7 +98,7 @@ const Hero = () => {
                     onClick={handleCopyEmail}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-[36px] rounded-full rounded-r-none text-sm bg-black-200"
+                      "size-[36px] rounded-full rounded-r-none text-sm bg-black-200",
                     )}
                   >
                     {copiedEmail ? (

@@ -14,9 +14,9 @@ export const DATA = {
   location: "Islamabad, Pakistan",
   locationLink: "https://www.google.com/maps/place/islamabad",
   description:
-    "I'm a Computer Science student with a strong tech background. I build creative web projects that turn ideas into real, useful results.",
+    "I'm a full stack developer working full time as a freelancer. I build web and mobile apps from the ground up, handling both the frontend and the backend.",
   summary:
-    "In the past few years, I've been learning full-stack development using tools like React.js, Next.js, Node.js, and MongoDB. I enjoy both frontend and backend development. I've built several projects like a personal portfolio, an e-commerce app, resume analyzer app and image search app. I love learning new technologies and working with others to turn ideas into real projects. Outside of coding, I like reading about new tech trends and finding ways to get better at what I do. I'm excited to face new challenges and grow as a developer.",
+    "I'm a full stack developer skilled in React.js, Next.js, Node.js, Express.js, Tailwind CSS, and Bootstrap. I work with both frontend and backend, and I also have experience with AI and machine learning tools like Python, OpenCV, and Scikit-Learn. I've built several real projects, including a resume analyzer app that scores resumes based on job requirements, an image search app that finds similar images using AI, a full stack hotel management system with secure payments and booking logic, and a MERN stack e-commerce platform. I enjoy solving real problems and turning ideas into working products. Outside of coding, I like reading about new tech trends, AI, and books that help me grow as a developer.",
   avatarUrl: "/mKaif5.png",
   skills: {
     languages: ["JavaScript", "TypeScript", "Python", "Java", "C++"],
@@ -32,15 +32,17 @@ export const DATA = {
       "Bootstrap",
     ],
     backend: [
+      "Django",
       "Node.js",
       "Express.js",
-      "Mongoose (ODM)",
+      "Prisma",
+      "Mongoose",
       "Socket.IO",
       "REST APIs",
-      "Django",
+      "JSON Web Token (JWT)",
     ],
-    databases: ["MongoDB", "PostgreSQL", "MySQL", "Oracle Database"],
-    tools: ["VS Code", "Git", "GitHub", "Postman", "Figma"],
+    databases: ["PostgreSQL", "MongoDB", "MySQL", "SQLite", "Oracle Database"],
+    tools: ["VS Code", "Git", "GitHub", "Postman", "Figma", "Supabase"],
   },
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -68,20 +70,20 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/mkaif56?s=09",
+        url: "https://x.com/mkaif56",
         icon: Icons.x,
         navbar: true,
       },
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/mkaif056?igsh=MjU3YWo2azZyMjVr",
+        url: "https://www.instagram.com/mkaif056",
         icon: Icons.instagram,
         navbar: true,
       },
       Facebook: {
         name: "Facebook",
         // url: "https://web.facebook.com/profile.php?id=61562057890982", // My Facebook Page URL
-        url: "https://www.facebook.com/mKaif056?mibextid=ZbWKwL", // My Facebook Profile URL
+        url: "https://www.facebook.com/mKaif056", // My Facebook Profile URL
         icon: Icons.facebook,
         navbar: true,
       },
@@ -146,34 +148,37 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "E-Store - A Powerful and Scalable Ecommerce Platform",
-      dates: "Sep 27, 2024",
-      href: "https://estore-mkaif.vercel.app/",
+      title: "LLC Formation Website",
+      dates: "Sep 02, 2026",
+      // href: "https://estore-mkaif.vercel.app/",
       active: true,
       description:
-        "E-Store is a full-stack ecommerce platform built with React.js (MERN-Stack). The application has a fully functional interface ensuring maximum satisfaction through product browsing, cart management and Stripe for payment processing. The application has secure user authentication, product management, admin panel, and modern ecommerce practices allow for a more flexible architecture.",
+        "LLC Formation is a full-stack US LLC formation platform built with Next.js, TypeScript and Node.js/Express (PostgreSQL). The application handles the full journey from a multi-step onboarding wizard through payment verification to fulfilment, with three role-based dashboards for customers, supervisors and admins. Secure Supabase authentication, a concurrency-safe request claiming queue, automated compliance reminders, and a data-driven service catalog allow for a flexible, scalable architecture.",
       technologies: [
-        "React.js",
+        "Next.js",
+        "TypeScript",
         "Tailwind CSS",
-        "Cloudinary",
-        "Stripe",
         "Node.js",
         "Express.js",
-        "MongoDB",
+        "PostgreSQL",
+        "Supabase",
+        "Supabase Storage",
+        "Supabase Auth",
+        "Prisma",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://estore-mkaif.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Github",
-          href: "https://github.com/mKaif1193/ecommerce-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/estore.png",
+      // links: [
+      //   {
+      //     type: "Website",
+      //     href: "https://estore-mkaif.vercel.app/",
+      //     icon: <Icons.globe className="size-3" />,
+      //   },
+      //   {
+      //     type: "Github",
+      //     href: "https://github.com/mKaif1193/ecommerce-app",
+      //     icon: <Icons.github className="size-3" />,
+      //   },
+      // ],
+      image: "/llc-formation-website.png",
       video: "",
     },
     {
@@ -227,6 +232,37 @@ export const DATA = {
         },
       ],
       image: "/Image Searcher Project.png",
+      video: "",
+    },
+    {
+      title: "E-Store - A Powerful and Scalable Ecommerce Platform",
+      dates: "Sep 27, 2024",
+      href: "https://estore-mkaif.vercel.app/",
+      active: true,
+      description:
+        "E-Store is a full-stack ecommerce platform built with React.js (MERN-Stack). The application has a fully functional interface ensuring maximum satisfaction through product browsing, cart management and Stripe for payment processing. The application has secure user authentication, product management, admin panel, and modern ecommerce practices allow for a more flexible architecture.",
+      technologies: [
+        "React.js",
+        "Tailwind CSS",
+        "Cloudinary",
+        "Stripe",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://estore-mkaif.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/mKaif1193/ecommerce-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/estore.png",
       video: "",
     },
   ],
