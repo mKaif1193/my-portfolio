@@ -150,7 +150,7 @@ export const DATA = {
     {
       title: "LLC Formation Website",
       dates: "Sep 02, 2026",
-      // href: "https://estore-mkaif.vercel.app/",
+      href: "",
       active: true,
       description:
         "LLC Formation is a full-stack US LLC formation platform built with Next.js, TypeScript and Node.js/Express (PostgreSQL). The application handles the full journey from a multi-step onboarding wizard through payment verification to fulfilment, with three role-based dashboards for customers, supervisors and admins. Secure Supabase authentication, a concurrency-safe request claiming queue, automated compliance reminders, and a data-driven service catalog allow for a flexible, scalable architecture.",
@@ -166,18 +166,7 @@ export const DATA = {
         "Supabase Auth",
         "Prisma",
       ],
-      // links: [
-      //   {
-      //     type: "Website",
-      //     href: "https://estore-mkaif.vercel.app/",
-      //     icon: <Icons.globe className="size-3" />,
-      //   },
-      //   {
-      //     type: "Github",
-      //     href: "https://github.com/mKaif1193/ecommerce-app",
-      //     icon: <Icons.github className="size-3" />,
-      //   },
-      // ],
+      links: [],
       image: "/llc-formation-website.png",
       video: "",
     },
